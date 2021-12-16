@@ -1,0 +1,207 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Lato", sans-serif;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+}
+.container {
+  max-width: 1110px;
+  margin: 0 auto;
+}
+
+.section-title {
+  font-size: 48px;
+  line-height: 55px;
+  font-weight: bold;
+  color: #d52047;
+  margin: 0 0 40px 0;
+}
+
+.section-subtitle {
+  font-size: 32px;
+  line-height: 37px;
+  margin: 0 0 24px 0;
+}
+
+/* Header  */
+
+.header {
+  background-color: #f9f7e8;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.nav-icon {
+  font-family: "Courgette", cursive;
+  display: inline-block;
+  vertical-align: middle;
+  color: #62bfad;
+  margin: 0 80px 0 0;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 37px;
+}
+
+.nav-name-end {
+  color: black;
+}
+
+.nav-list {
+  display: inline-block;
+  vertical-align: middle;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-item {
+  display: inline-block;
+  margin-right: 24px;
+  font-size: 16px;
+  line-height: 18px;
+}
+.nav-item a {
+  color: #000000;
+}
+.nav-item a:hover {
+  cursor: pointer;
+  color: red;
+}
+
+.nav-item:last-child {
+  margin: 0;
+}
+
+/* Slogan section */
+
+.slogan-section {
+  background-color: #d52047;
+  padding-top: 185px;
+  padding-bottom: 185px;
+  /* padding-left: 351px; */
+}
+
+.slogan-text {
+  text-transform: uppercase;
+  font-family: "Limelight", cursive;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 55px;
+  color: #ffffff;
+  margin: 0;
+  text-align: center;
+}
+
+/* About section */
+
+.about-section {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background-color: #eff8f6;
+  font-size: 0;
+}
+
+.about-section-content {
+  display: inline-block;
+  vertical-align: top;
+  padding: 24px;
+  background-color: #e5e5e5;
+  width: 50%;
+}
+
+.about-section-content p {
+  margin: 0;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.about-section-img {
+  display: inline-block;
+  vertical-align: top;
+  width: 50%;
+  border-radius: 0px 8px 8px 0px;
+  height: 333px;
+}
+
+/* Features  */
+
+.features {
+  padding: 80px 0;
+  background-color: white;
+}
+
+.features-card {
+  display: inline-block;
+  width: 322px;
+  padding: 24px;
+  border: 2px solid #e5e5e5;
+  border-radius: 8px;
+  margin-right: 48px;
+}
+
+.features-card:first-of-type {
+  margin-left: 24px;
+}
+
+.features-card:last-child {
+  margin-right: 0;
+}
+
+.features-card p:only-of-type {
+  margin: 0 0 24px 0;
+  font-size: 16px;
+  line-height: 18px;
+}
+
+.features-card img:only-of-type {
+  margin-bottom: 24px;
+}
+
+.features-card a:only-of-type {
+  color: #d52047;
+  font-size: 16px;
+  line-height: 18px;
+  text-decoration-line: underline;
+}
+
+/* Footer */
+
+.footer {
+  padding: 31px 0 31px 0;
+  background-color: #f9f7e8;
+}
+
+.footer-text {
+  font-size: 16px;
+  line-height: 18px;
+  color: #000000;
+  text-align: center;
+  vertical-align: middle;
+}
+.footer-text a {
+  text-decoration: underline;
+  color: #000000;
+}
+
+.footer-text a:hover {
+  cursor: pointer;
+  color: red;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+}
+.social-icons a {
+  margin: 0 8px;
+  font-size: 24px;
+  color: #000000;
+}
+
+.social-icons a:hover {
+  cursor: pointer;
+  color: red;
+}

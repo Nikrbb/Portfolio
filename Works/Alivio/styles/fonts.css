@@ -1,0 +1,13 @@
+@font-face {
+  font-family: "Avenir" sans-serif;
+  src: local("Avenir"), url(../fonts/AvenirNextLTPro-Demi.otf);
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Avenir-thin" sans-serif;
+  src: local("Avenir-thin"), url(../fonts/AvenirNextLTPro-UltLtCn.otf);
+  font-weight: 600;
+  font-style: normal;
+}
